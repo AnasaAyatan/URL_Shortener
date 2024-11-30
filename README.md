@@ -41,16 +41,6 @@ bash
 Copy code
 python full_main.py
 Use the command-line interface to input URLs and receive shortened links, or visit the web server (http://localhost) to interact via a browser.
-Key Differences
-Feature	Lightweight Version	Full Main Version
-Short URL Generation	✅ Basic	✅ Secure & Random
-URL Validation	✅ Basic Validation	✅ Enhanced Validation
-Expiration Dates	❌ Not Included	✅ 7-Day Default
-Malicious URL Detection	❌ Not Included	✅ Blacklist Check
-Logging	❌ Not Included	✅ Logs Actions
-Web Server	✅ Flask Endpoint Only	✅ Flask + CLI
-Example Usage (Full Main Version)
-Input a URL to shorten:
 
 plaintext
 Copy code
